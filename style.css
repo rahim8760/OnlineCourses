@@ -1,4 +1,4 @@
-/*.carousel-item::before{
+.carousel-item::before{
     content:"";
     display: block;
     position: absolute;
@@ -7,19 +7,10 @@
     left: 0;
     right: 0;
     background: #000;
-    opacity: 0.5;
+    opacity: 0.7;
 
 }
-.carousel-caption{
-    bottom: 140px;
+.hero-image{
+    height: 70vh;
+    object-fit: cover;
 }
-@media only screen and (min-width: 915px){
-  .carousel-caption{
-    bottom: 250px;
-}  
-}
-@media (max-width: 576px) {
-    .carousel-caption{
-        bottom: 10px;
-    } 
-}*/
